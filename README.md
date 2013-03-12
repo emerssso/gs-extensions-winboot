@@ -1,4 +1,4 @@
-This Gnome Shell extension is intended to add main dropdown menu option ('Windows Boot') to immediately reboot to a 
+This Gnome Shell extension is intended to add a main dropdown menu option ('Windows Boot') to immediately reboot to a 
 Windows 7 install on sda1.
 
 Note that this is a first release and makes several strong assumptions about the setup of your system.  Further,
