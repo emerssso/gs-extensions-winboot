@@ -29,5 +29,6 @@ KNOWN PROBLEMS:
 * If the password is entered incorrectly or cancel is hit on the authentication dialog window, the system will shut down
 anyway and use the default boot configuration on restart.
 * Authentication dialog message really doesn't make any sense.
+* Looks like the permissions request fails in Gnome 3.6.3.
 
 
