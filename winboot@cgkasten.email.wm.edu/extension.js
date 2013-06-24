@@ -12,8 +12,7 @@ let item, userMenu;
 
 function _onAdvancedSettingsActivate() {
     Main.overview.hide();
-    Util.spawnCommandLine("pkexec grub2-reboot 'Windows 7 (loader) (on /dev/sda1)'");
-    Util.spawnCommandLine("reboot");
+    Util.spawnCommandLine("pkexec bash oswitch.sh 'Windows 7 (loader) (on /dev/sda1)'");
 }
 
 function init(extensionMeta) {
